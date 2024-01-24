@@ -1,5 +1,5 @@
 import cv2
-image = cv2.imread("tiger.jpeg")
+image = cv2.imread("fruit.jpeg")
 cv2.imshow("Given Picture", image)
 cv2.waitKey(0)
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
